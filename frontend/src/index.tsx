@@ -1,8 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Send, Bot, User } from 'lucide-react';
-import { Message } from '../types/chat';
-import { sendMessage } from '../services/api';
-import Loader from './Loader';
+import { Message } from './types/chat';
+import { sendMessage } from './services/api';
 
 const ChatBox = () => {
   // State management for messages, user input, and loading status
